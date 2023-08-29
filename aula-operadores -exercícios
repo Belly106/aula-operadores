@@ -1,0 +1,48 @@
+// this is a js file
+// Gabriel Barros
+
+
+/* Exercícios: Isabelly Fernandes*/
+//Exercício de interpretação:
+//1- console a. "false"
+//console b. "false"
+//console c. "true"
+//console d. booleano
+//2-As variáveis estão como String.
+//3-Sugiro meu colega mudar a variável de string para number() antes de pedir um resultado.
+
+//Exercícos de código:
+//1- Pergunte a idade do usuário:
+
+let nome;
+nome = prompt ( "Qual seu nome?");
+let idadeMelhorAmiga = 18;
+idadeMelhorAmiga = Number(prompt ("Qual a idade da sua melhor amiga?"));
+minhaIdade = true;
+console.log("Sua idade é maior do que a do seu melhor amigo?" ,minhaIdade);
+console.log( minhaIdade - idadeMelhorAmiga);
+
+//2- Número par.
+let numero;
+numero = Number (prompt (" Digite um número par:"));
+console.log( numero);
+console.log(numero % 2);
+//O resultado sempre da 0.
+//O resultado sempre da 1.
+
+//3-
+let idade = 17-4-2004;
+idade =Number (prompt ("Qual sua idade em anos?"));
+console.log(idade * 12);
+console.log(idade * 365);
+console.log(idade * 8766);
+
+//4- 
+let usuario;
+usuario = Number (prompt(" Digite dois números"));
+let primerio  = Number  (prompt(" Digite dois números"));
+
+console.log("O primeiro numero é maior que segundo?", Boolean(usuario>=primerio));
+console.log("O primeiro numero é igual ao segundo? ", Boolean(usuario===primerio));
+console.log("O primeiro numero é divisível pelo segundo?", Boolean(usuario%primerio));
+console.log("O segundo numero é divisível pelo primeiro?", Boolean(usuario%primerio));
